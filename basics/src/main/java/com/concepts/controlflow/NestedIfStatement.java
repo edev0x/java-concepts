@@ -27,7 +27,7 @@ public class NestedIfStatement {
                     System.out.println("Antiguo Cuscatlán es un municipio dentro del distrito de La Libertad Este, en el departamento de La Libertad.");
                 }
             }
-        }else {
+        } else {
             System.out.println("No se encontró la ubicación.");
         }
     }
