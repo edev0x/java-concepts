@@ -52,5 +52,17 @@ public class IfStatement {
         } else {
             System.out.println("No eres un estudiante.");
         }
+
+        /**
+         * Existe una forma de simplificar la estructura `if-else` cuando se desea
+         * asignar un valor a una variable, utilizando el operador ternario.
+         * 
+         * Sintáxis:
+         * [tipo] variable = (condición) ? valor_si_verdadero : valor_si_falso;
+         */
+
+        String numIsEven = (age % 2 == 0) ? "El número es par" : "El número es impar";
+
+        System.out.println(numIsEven);
     }
 }
