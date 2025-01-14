@@ -36,5 +36,21 @@ public class IfStatement {
         } else {
             System.out.println("Aún eres un niño.");
         }
+
+        /*
+         * Podemos evaluar múltiples condiciones, haciendo uso de `if-elseif-else`
+         * La cual es muy parecido a una "cadena", donde si ninguna de las condiciones
+         * se cumple, se ejecuta el bloque de código dentro de `else`
+         */
+
+        boolean isStudent = true;
+
+        if (isStudent && age >= 18) {
+            System.out.println("Eres un estudiante universitario.");
+        } else if (isStudent && age < 18) {
+            System.out.println("Eres un estudiante de secundaria.");
+        } else {
+            System.out.println("No eres un estudiante.");
+        }
     }
 }

@@ -6,7 +6,7 @@ Este proyecto contiene una colección de ejemplos sobre los conceptos fundamenta
 
 ```plaintext
 java-concepts/
-└──  basics/
+└──  basics
     ├── controlflow/
     └── syntax/
 ```
