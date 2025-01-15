@@ -66,7 +66,8 @@ public class WhileLoops {
         } while (attempts < maxAttempts);
 
         if (attempts == maxAttempts) {
-            System.out.println("Número máximo de intentos alcanzado. Por seguridad, su cuenta ha sido bloqueada temporalmente.");
+            System.out.println(
+                    "Número máximo de intentos alcanzado. Por seguridad, su cuenta ha sido bloqueada temporalmente.");
         }
     }
 }
