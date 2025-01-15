@@ -7,8 +7,7 @@ package com.concepts.controlflow;
  * permite ejecutar un bloque de código mientras una condición sea verdadera.
  * 
  * La estructura `while` es muy útil cuando no se conoce el número de
- * iteraciones
- * que se deben realizar.
+ * iteraciones que se deben realizar.
  * 
  * Sintáxis:
  * 
